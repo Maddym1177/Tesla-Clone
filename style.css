@@ -69,31 +69,23 @@ h2{
     justify-content: center;
     margin-bottom: 4rem;
 }
-.btn1{
-    background-color: black;
-    color: wheat;padding: 1rem;
-    padding: 1rem;
-    margin: 1rem;
-    width: 20rem;
-    border-radius: 20px;
-    font-size: 16px;
-}
-.btn2{
-    background-color: wheat;
-    color: black;padding: 1rem;
-    padding: 1rem;
-    margin: 1rem;
-    width: 20rem;
-    border-radius: 20px;
-    font-size: 16px;
-}
 h3{
     font-size: 40px;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 22px;
+    font-weight: 600;
 }
